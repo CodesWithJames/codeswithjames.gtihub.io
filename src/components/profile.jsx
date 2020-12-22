@@ -6,8 +6,8 @@ export default function Profile() {
   if (currentPage === 'switch') currentPage = 'software'
 
   const sections = {
-    community: <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>,
-    software: <p>dab</p>,
+    community: <p>I am an experienced Community Manager with numerous years managing not only Top.gg's Community but many others.</p>,
+    software: <p>Skilled Full-Stack Developer with years of experience with Software and Web based projects. I've developed products from chat applications to traffic analysis and mapping.</p>,
   }
 
   return (
@@ -44,7 +44,7 @@ export default function Profile() {
           </div>
 
         </div>
-        <div>
+        <div className="description">
           {sections[currentPage]}
         </div>
       </div>

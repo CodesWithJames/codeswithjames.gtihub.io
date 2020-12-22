@@ -159,3 +159,7 @@ a:hover {
 .switch.active {
   color: var(--text-main)
 }
+
+.inline.small .description {
+  margin-top: 10px;
+}
