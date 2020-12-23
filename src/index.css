@@ -162,24 +162,32 @@ a:hover {
 
 .inline.small .description {
   margin-top: 10px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 800px) {
   .content {
+    display: block;
+    margin: 0 auto;
     width: 100%;
+    max-width: 100%;
   }
   .inline {
     margin-top: 10vh;
   }
+  .inline.small {
+    width: 90%;
+  }
   .profile-container {
-    width: 72rem;
+    width: 100%;
     display: inline-block;
     padding: 10px;
+    margin-bottom: 10px;
   }
   .projects {
     display: inline-block;
     grid-template-columns: 0;
     column-count: inherit;
-    width: 550px;
+    width: 390px;
   }
 }
