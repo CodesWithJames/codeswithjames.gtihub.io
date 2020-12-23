@@ -20,9 +20,9 @@ export default function Profile() {
             <hr className="underline"/>
           </div>
           <div className="socials">
-            <a rel="noreferrer" href="https://www.linkedin.com/in/franz-herrmann-2512791a3/" target="_blank"><i className="fab fa-linkedin-in"/></a>
-            <a rel="noreferrer" href="https://github.com/Xignotic84" target="_blank"><i className="fab fa-github"/></a>
-            <a rel="noreferrer" href="https://twitter.com/Xignotic" target="_blank"><i className="fab fa-twitter"/></a>
+            <a name="linkedin" rel="noreferrer" href="https://www.linkedin.com/in/franz-herrmann-2512791a3/" target="_blank"><i className="fab fa-linkedin-in"/></a>
+            <a name="github" rel="noreferrer" href="https://github.com/Xignotic84" target="_blank"><i className="fab fa-github"/></a>
+            <a name="twitter" rel="noreferrer" href="https://twitter.com/Xignotic" target="_blank"><i className="fab fa-twitter"/></a>
           </div>
         </div>
       </div>

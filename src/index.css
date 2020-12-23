@@ -163,3 +163,23 @@ a:hover {
 .inline.small .description {
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+  .content {
+    width: 100%;
+  }
+  .inline {
+    margin-top: 10vh;
+  }
+  .profile-container {
+    width: 72rem;
+    display: inline-block;
+    padding: 10px;
+  }
+  .projects {
+    display: inline-block;
+    grid-template-columns: 0;
+    column-count: inherit;
+    width: 550px;
+  }
+}

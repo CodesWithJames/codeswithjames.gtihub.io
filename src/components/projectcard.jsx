@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Projectcard(props) {
   return (
-    <a href={props.url} target={props.url ? '_blank' : '_self'}>
+    <a name={props.title} href={props.url} rel="noreferrer" target={props.url ? '_blank' : '_self'}>
       <div className='project-container'>
         <div className='img'>
           <img alt={props.title} src={`/images/${props.image}.png`}>
